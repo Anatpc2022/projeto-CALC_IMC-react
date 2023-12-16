@@ -28,7 +28,7 @@ function App() {
        {!imc ? (
         <ImcCalc calcImc={calcImc} />
        ): (
-        <ImcTable />
+        <ImcTable data={data}/>
        )}
       </div>
   )
