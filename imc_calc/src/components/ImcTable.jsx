@@ -1,3 +1,6 @@
+import Button from "./Button"
+import './ImcTable.css'
+
 const ImcTable = ({ data }) => {
     return (
         <div id="result-container">
@@ -18,7 +21,7 @@ const ImcTable = ({ data }) => {
                     </div>
                 ))}
             </div>
-            <button id="back-btn">Voltar</button>
+            <Button id="back-btn" text="Voltar"/>
         </div>
     )
 }
