@@ -1,6 +1,7 @@
 .container {
   min-width: 400px;
   min-height: 400px;
-  background-color: #1d1e33;
+  background-color: #2f75c4;
   padding: 2rem;
+  box-shadow: 2px 2px #00000023;
 }
