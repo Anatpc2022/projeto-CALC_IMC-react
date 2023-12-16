@@ -1,7 +1,7 @@
 const ImcTable = () => {
   return (
     <div>
-        
+        imcTable
     </div>
   )
 }
